@@ -13,6 +13,8 @@ app.use('/auth',UsuariosRouter)
 app.set('view engine','pug')
 app.set('views', './views')
 
+//Carpeta publica
+app.use(express.static('public'))
 
 //Definicion de puerto de arranque
 
