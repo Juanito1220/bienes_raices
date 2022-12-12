@@ -1,0 +1,4 @@
+import Sequalize, { Sequelize } from 'sequelize'
+
+const db = new Sequelize()
+
